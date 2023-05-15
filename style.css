@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #83c672;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-top: 50px;
+  color: #ffffff;
+}
+
+#game-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#dealer-hand {
+  margin-right: 20px;
+}
+
+#player-hand {
+  margin-left: 20px;
+}
+
+#player-hand,
+#dealer-hand {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#player-cards,
+#dealer-cards {
+  border: 1px solid black;
+  width: 300px;
+  height: 150px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#player-score,
+#dealer-score {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c6c6c6;
+}
+
+button:active {
+  background-color: #a1a1a1;
+}
+
+button:focus {
+  outline: none;
+}
+
+#hit-button {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+#stand-button {
+  background-color: #f44336;
+  color: #ffffff;
+}
+
+#deal-button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
