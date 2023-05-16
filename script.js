@@ -1,3 +1,18 @@
-fetch("https://deckofcardsapi.com/api/deck/new/draw/?count=1")
-.then((resp) => resp.json())
-.then(card => console.log(card))
+fetch("https://deckofcardsapi.com/api/deck/new/draw/?count=2")
+.then(resp => resp.json())
+.then(cards => {
+    const deckId = cards.deck_id
+    return deckId
+
+
+})
+
+cards(console.log(deckId))
+
+
+
+
+
+    
+
+
