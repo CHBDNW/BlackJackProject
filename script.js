@@ -109,13 +109,11 @@ function updateHands() {
 //   console.log("you WON!")
 //   }
 // }
-// Add event listeners to buttons
 hitButton.addEventListener("click", () => {
     dealCard(playerHand);
   });
   
   standButton.addEventListener("click", () => {
-    // Implement the logic for the dealer's turn here
     dealerTurn()
   });
   
