@@ -4,6 +4,6 @@ It relies on an external API that provides a deck of cards that is randomly shuf
 
 The project was a great excercise in hard coding the logic and rules of the seemingly simple game of Black Jack. I tried to make it as simple and clean as possible. 
 
-I've left comments in the JS file to explain the logic of each function and variable. 
+I've left comments in the script.JS file to explain the logic of each function and variable. 
 
 --Chris Hontos, 2023. 
